@@ -19,14 +19,15 @@ function findMaximum (num1, num2) {
 }
 
 function isPalindrome (word) {
-    const upperWord = word.convertToUpperCase;
-    const reversedWord = upperWord.split("").Math.reverse().join("");
-    if (upperWord === reversedWord) {
+    const upperWord = word.toUpperCase();
+    const reversedWord = upperWord.split("").reverse().join("");
+    if (word === reversedWord) {
         return true;
     }
     else {
         return false;
     }
+}
 console.log(isPalindrome('word'));
 }
 
