@@ -29,7 +29,7 @@ function isPalindrome (word) {
     }
 }
 console.log(isPalindrome('word'));
-}
+
 
 function calculateDiscountedPrice (originalPrice, discountPercentage) {
   const discountedPrice = originalPrice - ((discountPercentage / 100) * originalPrice);
