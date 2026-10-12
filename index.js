@@ -28,7 +28,8 @@ function isPalindrome (word) {
         return false;
     }
 }
-console.log(isPalindrome('word'));
+console.log(isPalindrome('racecar'));
+console.log(isPalindrome('h'));
 
 
 function calculateDiscountedPrice (originalPrice, discountPercentage) {
