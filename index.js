@@ -19,7 +19,7 @@ function findMaximum (num1, num2) {
 }
 
 function isPalindrome (word) {
-    const upperWord = word.toUpperCase();
+    const upperWord = word.toLowerCase();
     const reversedWord = upperWord.split("").reverse().join("");
     if (word === reversedWord) {
         return true;
