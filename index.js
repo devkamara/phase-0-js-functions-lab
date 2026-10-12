@@ -1,7 +1,6 @@
 let amount;
 let num1;
 let num2;
-let word;
 let originalPrice;
 let discountPercentage;
 
@@ -11,13 +10,18 @@ function calculateTax (amount) {
     return tax;
 }
 
+function convertToUpperCase (word) {
+    return word.toUpperCase();
+}
+
 function findMaximum (num1, num2) {
     return Math.max(num1, num2);
 }
 
-function isPalindrome ('word') {
-    const reversedWord = word.split("").Math.reverse().join("");
-    if (word === reversedWord) {
+function isPalindrome (word) {
+    const upperWord = word.convertToUpperCase;
+    const reversedWord = upperWord.split("").Math.reverse().join("");
+    if (upperWord === reversedWord) {
         return true;
     }
     else {
@@ -27,7 +31,8 @@ console.log(isPalindrome('word'));
 }
 
 function calculateDiscountedPrice (originalPrice, discountPercentage) {
-    if originalPrice 
+  const discountedPrice = originalPrice - ((discountPercentage / 100) * originalPrice);
+  return discountedPrice;
 }
 
 // This is required for the test to function properly  
